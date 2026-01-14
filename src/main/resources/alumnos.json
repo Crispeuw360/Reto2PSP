@@ -1,0 +1,6 @@
+[
+  { "id": 1, "nombre": "Ane", "curso": "DAM1" },
+  { "id": 2, "nombre": "Iker", "curso": "DAM2" },
+  { "id": 3, "nombre": "Lucía", "curso": "DAM1" },
+  { "id": 4, "nombre": "Markel", "curso": "DAM2" }
+]

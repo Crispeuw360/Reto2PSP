@@ -1,0 +1,14 @@
+server:
+  port: 8443
+  ssl:
+    key-store-type: PKCS12
+    key-store: classpath:keystore.p12
+    key-store-password: changeit
+    key-alias: springboot
+    enabled: true
+  http:
+    port: 8080
+
+spring:
+  application:
+    name: PSP2EVA
