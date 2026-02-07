@@ -1,0 +1,15 @@
+[ {
+	"id": 1,
+    "nombre": "Aptoide", 
+    "apkUrl": "APKS/aptoide.apk",
+    "imageUrl": "images/aptoide.png",
+    "downloadHash": null,
+	"descripcion": ""
+}, {
+	"id": 2,
+    "nombre": "WhatsApp", 
+    "apkUrl": "APKS/whatsapp.apk",
+    "imageUrl": "images/whatsapp.png",
+    "downloadHash": null,
+	"descripcion": ""
+} ]
