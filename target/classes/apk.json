@@ -1,15 +1,17 @@
 [ {
-	"id": 1,
-    "nombre": "Aptoide", 
-    "apkUrl": "APKS/aptoide.apk",
-    "imageUrl": "images/aptoide.png",
-    "downloadHash": null,
-	"descripcion": ""
+  "id" : 2,
+  "nombre" : "WhatsApp",
+  "apkUrl" : "APK/whatsapp.apk",
+  "imageUrl" : "images/whatsapp.png",
+  "downloadHash" : "24e84aba455cf25e17455ce388c3c38d54f61bb10b4a64c56702fc6e01d5be47",
+  "descripcion" : "",
+  "rating" : 5
 }, {
-	"id": 2,
-    "nombre": "WhatsApp", 
-    "apkUrl": "APKS/whatsapp.apk",
-    "imageUrl": "images/whatsapp.png",
-    "downloadHash": null,
-	"descripcion": ""
+  "id" : 3,
+  "nombre" : "Aptoide2",
+  "apkUrl" : "APK/aptoide.apk",
+  "imageUrl" : "images/aptoide.png",
+  "downloadHash" : "",
+  "descripcion" : "puteros",
+  "rating" : 4
 } ]

@@ -8,20 +8,30 @@ public class Apk {
     private String imageUrl;
     private String downloadHash;
     private String descripcion;
+    private int rating;
 
     public Apk() {
     }
 
-    public Apk(int id, String nombre, String apkUrl, String imageUrl, String downloadHash,String descripcion) {
+    public Apk(int id, String nombre, String apkUrl, String imageUrl, String downloadHash,String descripcion,int rating) {
         this.id = id;
         this.nombre = nombre;
         this.apkUrl = apkUrl;
         this.imageUrl = imageUrl;
         this.downloadHash = downloadHash;
         this.descripcion = descripcion;
+        this.rating = rating;
     }
 
-    public int getId() {
+    public int getRating() {
+		return rating;
+	}
+
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
+
+	public int getId() {
         return id;
     }
 
@@ -71,8 +81,8 @@ public class Apk {
 
 	@Override
 	public String toString() {
-		return "Game [id=" + id + ", nombre=" + nombre + ", apkUrl=" + apkUrl + ", imageUrl=" + imageUrl
-				+ ", downloadHash=" + downloadHash + ", descripcion=" + descripcion + "]";
+		return "Apk [id=" + id + ", nombre=" + nombre + ", apkUrl=" + apkUrl + ", imageUrl=" + imageUrl
+				+ ", downloadHash=" + downloadHash + ", descripcion=" + descripcion + ", rating=" + rating + "]";
 	}
 
     

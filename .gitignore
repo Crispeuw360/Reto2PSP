@@ -29,6 +29,9 @@ dist/
 nbdist/
 .nb-gradle/
 
+# eclipse IDE
+target/
+
 # NetBeans user-specific files
 **/nbproject/private/
 **/build/
